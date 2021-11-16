@@ -1,0 +1,527 @@
+.nav {
+    list-style: none;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    z-index: 5;
+    font-weight: 500;
+}
+
+.nav li {
+    display: inline;
+    padding: 92px;
+    width: 1088px;
+    height: 70px;
+}
+
+.nav a {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 48px;
+    height: 54px;
+    position: absolute;
+}
+
+.background {
+    height: 980px;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+    filter: opacity(60%);
+    z-index: 0;
+}
+
+h1 {
+    font-size: 200px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: lighter;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-color {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    z-index: 4;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#article-block {
+    width: 233px;
+    height: 63px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+#article-block p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    left: 58px;
+}
+
+section {
+    margin: 0 auto;
+    width: 1088px;
+}
+
+.hover img:hover {
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+
+div.article-var1 {
+    margin-top: 90px;
+}
+
+div.article-var1 img {
+    width: 460px;
+    float: left;
+    padding-right: 70px;
+}
+
+div.article-var1 h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+div.article-var1 p {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif
+}
+
+div.article-var2 {
+    margin-top: 90px;
+    float: right;
+    text-align: end;
+}
+
+div.article-var2 img {
+    width: 460px;
+    float: right;
+    padding-left: 70px;
+}
+
+div.article-var2 h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+div.article-var2 p {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+div.article-block {
+    background-color: #094e49;
+    width: 100%;
+    height: 443px;
+    padding-top: 90px;
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+div.special-article {
+    color: white;
+}
+
+div.special-article img {
+    width: 646px;
+    float: left;
+    padding-right: 70px;
+}
+
+div.special-article h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+div.special-article p {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project-block {
+    width: 223px;
+    height: 63px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+#project-block p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    left: 50px;
+}
+
+#podcast-blok {
+    width: 223px;
+    height: 63px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+#podcast-blok p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    left: 60px;
+}
+
+div.project-1 {
+    margin-top: 90px;
+}
+
+div.project-1 img {
+    width: 539px;
+    float: left;
+    margin-right: 70px;
+}
+
+div.project-1 h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+div.project-1 p {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.project-2 {
+    margin-top: 90px;
+    text-align: end;
+}
+
+div.project-2 img {
+    width: 539px;
+    float: right;
+    margin-left: 70px;
+    margin-bottom: 90px;
+}
+
+div.project-2 h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+div.project-2 p {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project-3 {
+    height: 443px;
+}
+
+.podcast {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin-top: 90px;
+}
+
+footer img {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* articlepage */
+
+p a {
+    font-style: italic;
+}
+
+h5 a {
+    font-style: italic;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav-article a {
+    text-decoration: none;
+}
+
+.nav-article {
+    font-weight: 500;
+    background-color: white;
+    height: 70px;
+    list-style: none;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    z-index: 5;
+}
+
+.nav-article li {
+    display: inline;
+    padding: 92px;
+    width: 1088px;
+    height: 70px;
+}
+
+.nav-article a {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-section {
+    width: 690px;
+}
+
+div.first-paragraph {
+    margin-top: 150px;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    line-height: 84px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    line-height: 42px;
+    margin-top: 90px;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.photo-block {
+    height: 373px;
+    width: 334px;
+    background-color: #90ca02;
+    margin-left: -167px;
+    margin-top: 90px;
+    float: left;
+}
+
+.image-1 {
+    height: 383px;
+    width: 274px;
+    border: 10px solid #08c8f2;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.text-right {
+    width: 450px;
+    float: right;
+}
+
+div.text-right p {
+    margin-bottom: 90px;
+}
+
+q {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+span {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 240px;
+    line-height: 50px;
+}
+
+.block-1 {
+    width: 100%;
+    height: 690px;
+    background-color: #90ca02;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.block-1 p {
+    position: relative;
+    top: 90px;
+    left: 0px;
+    margin-top: 10px;
+}
+
+.block-2 {
+    width: 219px;
+    height: 690px;
+    background-color: #094e49;
+    float: left;
+}
+
+.block-3 {
+    width: 100%;
+    height: 709px;
+    background-color: #08c8f2;
+    margin-bottom: 350px;
+    margin-top: 90px;
+}
+
+.block-4 {
+    z-index: 1;
+    width: 422px;
+    height: 414px;
+    background-color: #094e49;
+    position: relative;
+    top: -90px;
+    left: 100px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-style: italic;
+    padding: 50px;
+}
+
+.image-2 {
+    height: 527px;
+    width: 630px;
+    margin-top: 90px;
+    margin-right: 30px;
+}
+
+.image-3 {
+    height: 527px;
+    width: 418px;
+}
+
+#quote-jean {
+    color: white;
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#bronnen-button {
+    width: 115px;
+    height: 40px;
+    background-color: #08c8f2;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding-top: 10px;
+}
+
+#bronnen-button:hover {
+    transform: scale(1.1);
+}
+
+#bronnen-button a {
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    display: block;
+    font-style: normal;
+    color: black;
+}
+
+
+/* bronnen */
+
+.bronnen a img {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.bronnen .article-section p {
+    margin-top: 10px;
+}
